@@ -13,7 +13,7 @@ const app = express()
 app.use(express.json({ extended: true }))
 app.use(express.urlencoded({ extended: true }))
 app.use(cors({
-    origin: ["https://blog-app-iota-rosy.vercel.app", "http://localhost:3000"],
+    origin: ["https://blog-app-indol-kappa.vercel.app", "http://localhost:3000"],
     allowedHeaders: ['Content-Type', 'Accept', 'Authorization', 'Origin'],
     optionsSuccessStatus: 204,
     credentials: true
